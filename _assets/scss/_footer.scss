@@ -1,0 +1,93 @@
+.footer {
+  color: white;
+  position: fixed;
+  z-index: 200;
+  bottom: 0;
+  width: 100vw;
+  height: 50px;
+  padding: 21px 10px;
+  background: rgba($p-black, .8);
+  backdrop-filter: blur(5px);
+}
+
+.footer-logo {
+  position: absolute;
+  top: 8px;
+  left: 44px;
+  bottom: 1px;
+  z-index: 300;
+}
+
+.footer-button-holder {
+  margin: -14px 0 0 203px;
+}
+
+// common to all footer buttons
+.footer-button {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  margin-left: 15px;
+  background: url(../gfx/sprite-bank.svg) no-repeat;
+  background-position: 0 -2px;
+  cursor: pointer;
+  transition: transform .6s ease;
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+
+.twit-label {
+  background-position: 4px 0;
+}
+
+.map-label {
+  background-position: -69px 0;
+}
+
+.contact-label {
+  background-position: -143px -2px;
+}
+
+.phone-label {
+  background-position: -206px -1px;
+}
+
+.login-label {
+  width: auto;
+  margin-right: .5em;
+  float: right;
+  font-size: 140%;
+  line-height: 180%;
+  color: $p-lightblue;
+  background: none;
+}
+
+.cd-top {
+  position: absolute;
+  opacity: 0;
+  background-position: -272px -2px;
+  left: -20px;
+}
+
+.cd-top.cd-is-visible,
+.cd-top.cd-fade-out,
+.no-touch .cd-top:hover {
+  transition: all .3s 0s, visibility 0s 0s;
+}
+
+.cd-top.cd-is-visible {
+  visibility: visible;
+  opacity: 1;
+}
+
+.close-button {
+  background-position: -355px -1px !important;
+  border: 1px solid;
+  border-radius: 50%;
+}
+
+// might make this active on mobile only
+.hide-phone-icon {
+  display: none;
+}

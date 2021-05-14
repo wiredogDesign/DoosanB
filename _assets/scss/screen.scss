@@ -1,0 +1,194 @@
+@charset "UTF-8";
+@import "reset";
+@import "colours";
+@import "cbox";
+@import "panels";
+@import "contact";
+@import "footer";
+
+body {
+  font: 1em 'open sans', helvetica, arial, sans-serif;
+  color: $p-darkgrey;
+  overflow-x: hidden;
+  -ms-scrollbar-track-color: hsl(0, 0, 16%);
+  scrollbar-track-color: hsl(0, 0, 16%);
+  -ms-scrollbar-face-color: $c-blue;
+  scrollbar-face-color: $c-blue;
+  -ms-scrollbar-arrow-color: $c-blue;
+  scrollbar-arrow-color: $c-blue;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+h1 {
+  padding-bottom: 10px;
+}
+
+.logo-container {
+  position: absolute;
+  top: 10px;
+  width: 140px;
+  height: 53px;
+}
+
+.timeline {
+  position: fixed;
+  z-index: 100;
+  left: -4px;
+  top: 0;
+  width: 50px;
+  white-space: nowrap;
+  height: calc(100vh - 50px);
+  text-align: center;
+  & a {
+    position: relative;
+    color: hsl(0, 0%, 100%);
+    display: block;
+    height: 35px;
+    margin: 54px 0px 68px -31px;
+    transition: all .2s ease;
+    line-height: 35px;
+    width: 103px;
+    transform: rotate(-90deg);
+    &:hover {
+      transform: translateX(10px) rotate(-90deg) scale(1.08);
+      z-index: 100;
+    }
+  }
+}
+
+article {
+  position: relative;
+  overflow: hidden;
+  min-height: 100vh;
+  padding: 20px 0 14px 41px;
+  background-attachment: fixed !important;
+  background-blend-mode: soft-light;
+  background-size: 170% !important;
+  background-position: center !important;
+  &:first-of-type h2 {
+    background: url('../../dist/gfx/branding.svg') no-repeat;
+    background-size: auto;
+    text-indent: -9999px;
+    height: 12vh;
+  }
+}
+
+// text content
+.blurb {
+  font-size: calc(1em + 0.2vw);
+  line-height: 1.3em;
+  color: black;
+  float: left;
+  width: 50vw;
+  height: auto;
+  margin: 0vw 4vw 10px 39px;
+  padding: 1em;
+  background: rgba(white, .65);
+  // border-radius: 0 17px 17px;
+  & h1 {
+    font-size: calc(1em + 0.6vw);
+    padding-bottom: 9px;
+  }
+  & h2 {
+    font-size: 1.1em;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    border-left-width: 30px;
+    border-left-style: solid;
+    height: 30px;
+    line-height: 30px;
+    margin-bottom: 20px;
+  }
+  & h3 {
+    padding: 1em 0 0.2em 0;
+  }
+  & a {
+    position: relative;
+    display: inline-block;
+    padding: 0 3px;
+    border-radius: 4px;
+    color: $p_black;
+    background: hsla(0, 0%, 100%, .85);
+    &::after {
+      content: '';
+      position: absolute;
+      bottom: -1px;
+      left: 0;
+      width: 0%;
+      height: 1px;
+      border-bottom: 2px dotted;
+      transition: width .2s ease;
+    }
+    &:hover::after {
+      width: 100%;
+    }
+  }
+}
+
+// hides the blank h3 on the home article
+article:first-of-type .blurb h3 {
+  display: none;
+}
+
+article:last-of-type {
+  padding-bottom: 5em;
+}
+
+.desktop-only {
+  margin-top: 2rem;
+  background: rgba($b-yellowgreen, 0.61);
+  padding: 0.6em  0.8em;
+  // color: hsl(0, 0%, 100%);
+}
+
+// image content
+.media {
+  color: black;
+  float: left;
+  width: 33vw;
+  height: auto;
+  margin: 0;
+}
+
+.image-thumb {
+  width: 30.5%;
+  height: auto;
+  margin: 0 0.1em 0.1em 0;
+  background: hsla(0, 0%, 100%, .65);
+  transition: all .2s ease;
+  cursor: pointer;
+  &:hover {
+    border-radius: 50%;
+    transform: scale(.96);
+  }
+}
+
+video {
+  width: 100%;
+}
+
+.video-title {
+  color: #000;
+  display: none;
+  margin: 0;
+  padding: 0;
+  text-align: right;
+}
+
+.audio-title {
+  color: #000;
+  display: none;
+  width: auto;
+  margin: 0;
+  text-align: right;
+}
+
+@import "mobile";

@@ -1,0 +1,90 @@
+// small mobile device
+@media all and (min-width: 320px) and (max-width: 639px) {
+  .twit-label,
+  .map-label {
+    display: none;
+  }
+  
+  article {
+    background-image: none !important;
+    padding: 20px 0 0 32px;
+  }
+  
+  .footer {
+    background: hsla(0, 0%, 12%, 0.9);
+  }
+  
+  .footer-logo {
+    left: 41px;
+  }
+  
+  .button-holder {
+    margin-left: 11px;
+  }
+  
+  .footer-button-holder {
+    margin: -14px 0 0 211px;
+  }
+  
+  .blurb,
+  .media {
+    width: 85vw;
+    margin-left: 1em;
+    border-radius: 0;
+  }
+  
+  .media {
+    display: flex;
+    justify-content: space-around;
+    width: calc(85vw + 4px);
+    margin-bottom: 1em;
+    transform: translateX(-1px);
+  }
+
+  .image-thumb {
+    width: auto;
+    height: 50px;
+    margin: 0;
+    background: rgba(255,255,255,0.65);
+    transition: all .2s ease;
+    cursor: pointer;
+    border: 1px solid white;
+  }
+
+  h2 {
+    font-size: 1em;
+  }
+  
+  .contact-panel {
+    width: 100vw;
+    left: -100vw;
+  }
+  
+  .slide-into-view {
+    left: 0;
+  }
+  
+  label {
+    left: 10px;
+  }
+  
+  input[type=email],
+  input[type=password],
+  input[type=text],
+  textarea {
+    width: 90%;
+    margin: 0;
+  }
+  
+  .email-alert {
+      // font-size: 1em;
+      // line-height: 2em;
+    left: 105px;
+  }
+  
+  .message-status {
+    top: 22px;
+    left: 0px !important;
+  }
+
+}

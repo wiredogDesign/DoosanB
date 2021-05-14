@@ -1,0 +1,106 @@
+// contact form
+
+// .contact-form {
+//     position: relative;
+//     margin-left: 12px;
+// }
+
+// .contact-panel {
+//     background: $c-blue !important;
+// }
+
+// .contact-panel h2 {
+//     color: $c-blue;
+//     padding-bottom: 40px;
+// }
+
+.field-holder {
+    position: relative;
+    margin-bottom: 32px;
+}
+
+label {
+    font-size: 1em;
+    position: absolute;
+    top: -14px;
+    left: 70px;
+    padding: 4px 8px;
+    background: $c-blue;
+    color: white;
+}
+
+input[type=email],
+input[type=password],
+input[type=text],
+textarea {
+    font: 1em 'open sans', helvetica, arial, sans-serif;
+    color: black;
+    width: 500px;
+    margin: 0 0 0 53px;
+    padding: 15px 10px 10px;
+    border: 1px solid white;
+    border-radius: 0;
+    background: $c-blue;
+    -webkit-appearance: none;
+}
+
+textarea {
+    height: 120px;
+    resize: none;
+    overflow: hidden;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    border-left: 3px solid $b-yellowgreen;
+}
+
+.button-holder {
+    margin: 30px 0 18px 55px;
+}
+
+button {
+    font: 1em 'open sans', helvetica, arial, sans-serif;
+    padding: 10px 20px;
+    border-radius: 4px;
+    background: white;
+    transition: background .2s ease;
+}
+
+button:hover {
+    color: white;
+    background: $p-lightgrey;
+}
+
+iframe.contact-form {
+    position: absolute;
+    left: -70vw;
+    top: -24px;
+    width: 70vw;
+    height: calc(100vh - 41px);
+    transition: left .4s ease;
+}
+
+.single-page h2 {
+    padding: 20px 15px 67px;
+    font-size: 1.3em;
+    color: $a-darkblue;
+}
+
+.email-alert {
+    font-size: 1em;
+    color: $p-black;
+    position: absolute;
+    left: 170px;
+    top: -10px;
+    background: $c-blue;
+    padding: 0 6px;
+}
+
+.message-status {
+    position: relative;
+    left: -163px !important;
+    top: 62px;
+    display: inline-block;
+}

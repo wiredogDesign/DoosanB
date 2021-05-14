@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1"
+	 id="layer1" xmlns:svg="http://www.w3.org/2000/svg" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:cc="http://web.resource.org/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="80px" height="80px"
+	 viewBox="0 0 80 80" enable-background="new 0 0 80 80" xml:space="preserve">
+<g id="g1">
+	<polygon id="polygon1" fill="#444444" points="38,15 25.58,29.71 13.83,29.71 13.83,48.63 25.41,48.63 38,63.55 	"/>
+	<path id="path1" fill="#444444" d="M42.02,49.95c1.91-3.07,3.04-6.68,3.04-10.56c0-3.94-1.15-7.61-3.12-10.71"/>
+	<path id="path2" fill="none" stroke="#444444" stroke-width="5" stroke-miterlimit="10" d="M47.8,21.71
+		c3.66,4.94,5.83,11.06,5.83,17.69c0,6.56-2.13,12.63-5.74,17.54"/>
+	<path id="path1_1_" fill="none" stroke="#444444" stroke-width="5" stroke-miterlimit="10" d="M55.48,63.42
+		c5.22-6.61,8.34-14.95,8.34-24.02c0-9.14-3.16-17.53-8.44-24.16"/>
+</g>
+</svg>

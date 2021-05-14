@@ -1,0 +1,21 @@
+<svg 
+    version="1.1" 
+    x="0px" y="0px" 
+    viewBox="0 0 209 100" 
+    xmlns="http://www.w3.org/2000/svg">
+    <style type="text/css">
+		rect {
+            width: 70px;
+            height: 70px;
+            rx: .96;
+            ry: .96;
+            fill: none;
+            stroke-width: .5;
+            stroke-linejoin: round;
+            stroke: #AAAAAA;
+        }
+	</style>
+    <rect x="18.45" transform="matrix(0.95105, 0.30903, -0.30903, 0.95105, 4.701, -5.70234)"/>
+    <rect x="65.97" y="28.08" transform="matrix(0.99756, -0.06976, 0.06976, 0.99756, -1.24572, 5.63394)"/>
+    <rect x="135.97" y="16.17" transform="matrix(0.99377, 0.11147, -0.11147, 0.99377, 5.7714, -14.56011)"/>
+</svg>
