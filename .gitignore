@@ -1,7 +1,4 @@
 _corporate/
-node_modules/
-dist/media/
-tinymce/
 _assets/scss/.sass-cache/
 _assets/gfx/branding_blocks.ai
 _assets/gfx/branding.ai
