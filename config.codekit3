@@ -17,14 +17,6 @@
 		"oAP": "/.gitignore",
 		"oF": 0
 		},
-	"/.vscode/tasks.json": {
-		"ft": 524288,
-		"oA": 1,
-		"oAP": "/.vscode/tasks-min.json",
-		"oF": 0,
-		"oO": 0,
-		"oS": 1
-		},
 	"/_assets/gfx/branding.ai": {
 		"cB": 0,
 		"ft": 8192,
@@ -32,19 +24,6 @@
 		"oA": 0,
 		"oAP": "/_assets/gfx/branding.ai",
 		"oF": 0
-		},
-	"/_assets/gfx/branding.png": {
-		"ft": 32768,
-		"iS": 9736,
-		"oA": 0,
-		"oAP": "/_assets/gfx/branding.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"ou": "lpckwebp-none",
-		"q": 100,
-		"rq": 75
 		},
 	"/_assets/gfx/branding_blocks.ai": {
 		"cB": 0,
@@ -1174,14 +1153,6 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/dist/media/video/shiv.mp4",
-		"oF": 0
-		},
-	"/dist/media/video/Thumbs.db": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/dist/media/video/Thumbs.db",
 		"oF": 0
 		},
 	"/favicon.ico": {
