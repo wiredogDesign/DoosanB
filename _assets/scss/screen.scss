@@ -74,6 +74,7 @@ article {
   background-size: 170% !important;
   background-position: center !important;
   &:first-of-type h2 {
+    border: none;
     background: url('../../dist/gfx/branding.svg') no-repeat;
     background-size: auto;
     text-indent: -9999px;
